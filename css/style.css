@@ -1,7 +1,7 @@
 /* header style */
 *{
     margin: 0;
-}
+   }
 .header-with{
     max-width: 1140px;
     margin: auto;
@@ -36,6 +36,16 @@
     color: #fff;
     letter-spacing: 0.5px;
 }
+
+h2{
+    color: rgba(37, 36, 50, 1);
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+
+}
+
+/* banner style */
 .banner{
     text-align: center;
     padding-top: 150px;
@@ -48,4 +58,23 @@
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 30px;
+}
+
+/* action section style */
+.action-section{
+    background: rgba(245, 248, 255, 1);
+    padding: 100px 0px;
+}
+.action-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-left p{
+    color: rgba(15, 15, 15, 0.5);
+    font-size: 24px;
+    font-weight: 400;
+    width: 68%;
+    margin: 20px 0;
+
 }
