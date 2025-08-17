@@ -78,3 +78,37 @@ h2{
     margin: 20px 0;
 
 }
+
+/* counting style start */
+.counting-section{
+    background: rgba(245, 248, 255, 1);
+    padding: 60px 0px;
+}
+.counting{
+    
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.1);
+    padding: 50px;
+    text-align: center;
+    
+}
+.counting-area{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.counting h2{
+    margin-bottom: 20px;
+}
+.count-head{
+    color:  rgba(78, 71, 255, 1);
+    font-size: 80px;
+    font-weight: 800;
+    font-family: inter;
+ }
+ .count-text{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+ }
