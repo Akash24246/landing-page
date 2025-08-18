@@ -112,3 +112,70 @@ h2{
     font-size: 20px;
     font-weight: 400;
  }
+
+ /* review-section */
+ .review-section{
+    background: rgba(245, 248, 255, 1);
+    padding: 60px 0px;
+ }
+ 
+ .review-area{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+ }
+ .review{
+    max-width: 1140px;
+    margin: auto;
+    
+ }
+ .review h2{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ .review-box{
+    box-sizing: border-box;
+    border: 1px solid rgba(242, 237, 237, 1);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 24px;
+ }
+ .review-box img{
+    margin-bottom: 15px;
+ }
+ .review-box h3{
+
+color: rgba(30, 30, 30, 1);
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+}
+.review-box p{
+    color: rgba(30, 30, 30, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px auto;
+}
+.client-section{
+    display: flex;
+    gap: 10px;
+    
+}
+.client-section img{
+    border-radius: 50px;
+}
+.client-section h4{
+    color: rgba(117, 117, 117, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.client-section p{
+    color: rgba(179, 179, 179, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+}
