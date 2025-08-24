@@ -81,6 +81,9 @@ h2{
     margin: 20px 0;
 
 }
+.img-short{
+    border-radius: 10px;
+}
 
 /* counting style start */
 .counting-section{
