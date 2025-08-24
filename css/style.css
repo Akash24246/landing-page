@@ -44,6 +44,9 @@ h2{
     font-weight: 700;
 
 }
+.all-bg{
+    background: rgba(245, 248, 255, 1);
+}
 
 /* banner style */
 .banner{
@@ -179,3 +182,136 @@ font-weight: 600;
     font-weight: 400;
     margin-top: 0px;
 }
+
+/* focus style  */
+.focus{
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+    padding: 71px 0px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 1);
+}
+.focus p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px auto;
+}
+.focus .btn{
+    margin-bottom: 15px;
+}
+.focus img{
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+}
+
+.contact-section{
+    max-width: 1140px;
+    margin: auto;
+}
+.contact-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    gap: 0px;
+ }
+ .contact-area h2{
+    color: rgba(0, 0, 0, 1);
+    font-family: Raleway;
+    font-size: 80px;
+    font-weight: 700;
+
+ }
+
+.contact-form {
+    
+    border-radius: 12px;
+    
+    
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.contact-form textarea {
+    
+    height: 100px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 14px;
+    background: #4f46e5; /* purple/blue */
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+      background: #4338ca;
+}
+
+
+/* footer desgin start */
+.footer-section{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footer-logo{
+    color:  rgba(78, 71, 255, 1);
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 900;
+}
+.footer-text{
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0px;
+    width: 40%;
+    margin: auto;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+ul li{
+    
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+
+
